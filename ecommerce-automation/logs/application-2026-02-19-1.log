@@ -1,0 +1,346 @@
+2026-02-19 17:14:14 INFO  BaseTest:42 - ===== Starting Test Execution =====
+2026-02-19 17:14:14 INFO  BaseTest:43 - Initializing browser: 
+2026-02-19 17:14:14 ERROR BaseTest:83 - Invalid browser specified: 
+2026-02-19 17:20:23 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:20:23 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:20:30 INFO  ConfigReader:27 - Configuration properties loaded successfully
+2026-02-19 17:20:31 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:20:32 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (9a309452135ca9a0600b4d3b75fd7fd3)] -> id: user-name]
+2026-02-19 17:20:32 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:20:32 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (9a309452135ca9a0600b4d3b75fd7fd3)] -> id: password]
+2026-02-19 17:20:32 INFO  BasePage:38 - Entered password
+2026-02-19 17:49:24 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:49:24 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:49:26 INFO  ConfigReader:27 - Configuration properties loaded successfully
+2026-02-19 17:49:27 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:49:28 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (6d9b84e4f2f14e8c1b7eb2a4056eaf0c)] -> id: user-name]
+2026-02-19 17:49:28 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:49:28 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (6d9b84e4f2f14e8c1b7eb2a4056eaf0c)] -> id: password]
+2026-02-19 17:49:28 INFO  BasePage:38 - Entered password
+2026-02-19 17:49:38 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:49:38 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:49:38 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:49:38 INFO  BasePage:53 - Products page title: Products
+2026-02-19 17:49:38 INFO  BaseTest:44 - Valid login test passed
+2026-02-19 17:49:39 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:49:40 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:49:40 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:49:40 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:49:42 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:49:42 INFO  BasePage:50 - Entered text 'invalid_user' in element: [[ChromeDriver: chrome on windows (f3030ea9a4daa1dff7be8c793276c78f)] -> id: user-name]
+2026-02-19 17:49:42 INFO  BasePage:33 - Entered username: invalid_user
+2026-02-19 17:49:42 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (f3030ea9a4daa1dff7be8c793276c78f)] -> id: password]
+2026-02-19 17:49:42 INFO  BasePage:38 - Entered password
+2026-02-19 17:49:42 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (f3030ea9a4daa1dff7be8c793276c78f)] -> id: login-button]
+2026-02-19 17:49:42 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:49:43 INFO  BasePage:65 - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2026-02-19 17:49:43 INFO  BaseTest:63 - Invalid username test passed
+2026-02-19 17:49:43 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:49:43 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:49:43 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:49:43 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:49:45 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:49:45 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (c90e908d59a5db0d48f06f08af9fcb18)] -> id: user-name]
+2026-02-19 17:49:45 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:49:45 INFO  BasePage:50 - Entered text 'wrong_password' in element: [[ChromeDriver: chrome on windows (c90e908d59a5db0d48f06f08af9fcb18)] -> id: password]
+2026-02-19 17:49:45 INFO  BasePage:38 - Entered password
+2026-02-19 17:49:46 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (c90e908d59a5db0d48f06f08af9fcb18)] -> id: login-button]
+2026-02-19 17:49:46 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:49:46 INFO  BasePage:65 - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2026-02-19 17:49:46 INFO  BaseTest:82 - Invalid password test passed
+2026-02-19 17:49:46 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:49:47 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:49:47 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:49:47 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:49:48 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:49:49 INFO  BasePage:50 - Entered text '' in element: [[ChromeDriver: chrome on windows (43da5da5eb12ecf12a4e051790ff4f41)] -> id: user-name]
+2026-02-19 17:49:49 INFO  BasePage:33 - Entered username: 
+2026-02-19 17:49:49 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (43da5da5eb12ecf12a4e051790ff4f41)] -> id: password]
+2026-02-19 17:49:49 INFO  BasePage:38 - Entered password
+2026-02-19 17:49:49 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (43da5da5eb12ecf12a4e051790ff4f41)] -> id: login-button]
+2026-02-19 17:49:49 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:49:49 INFO  BasePage:65 - Error message displayed: Epic sadface: Username is required
+2026-02-19 17:49:49 INFO  BaseTest:101 - Empty username test passed
+2026-02-19 17:49:49 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:49:49 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:49:49 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:49:49 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:49:51 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:49:52 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (ad8009f9db6ab771f0b01fe5ca82a97b)] -> id: user-name]
+2026-02-19 17:49:52 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:49:52 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (ad8009f9db6ab771f0b01fe5ca82a97b)] -> id: password]
+2026-02-19 17:49:52 INFO  BasePage:38 - Entered password
+2026-02-19 17:50:02 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:50:02 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:50:02 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:50:02 INFO  BaseTest:122 - Data-driven login test completed for: standard_user
+2026-02-19 17:50:02 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:50:03 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:50:03 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:50:03 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:50:04 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:50:05 INFO  BasePage:50 - Entered text 'locked_out_user' in element: [[ChromeDriver: chrome on windows (b7c244090a40bfeeebe7e59c352e432f)] -> id: user-name]
+2026-02-19 17:50:05 INFO  BasePage:33 - Entered username: locked_out_user
+2026-02-19 17:50:05 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (b7c244090a40bfeeebe7e59c352e432f)] -> id: password]
+2026-02-19 17:50:05 INFO  BasePage:38 - Entered password
+2026-02-19 17:50:05 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (b7c244090a40bfeeebe7e59c352e432f)] -> id: login-button]
+2026-02-19 17:50:05 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:50:05 INFO  BasePage:59 - Login performed with username: locked_out_user
+2026-02-19 17:50:05 INFO  BaseTest:122 - Data-driven login test completed for: locked_out_user
+2026-02-19 17:50:05 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:50:06 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:50:06 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:50:06 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:50:07 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:50:08 INFO  BasePage:50 - Entered text 'problem_user' in element: [[ChromeDriver: chrome on windows (dff6710cb52f80fd7d0d76eaf9ce8dd1)] -> id: user-name]
+2026-02-19 17:50:08 INFO  BasePage:33 - Entered username: problem_user
+2026-02-19 17:50:08 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (dff6710cb52f80fd7d0d76eaf9ce8dd1)] -> id: password]
+2026-02-19 17:50:08 INFO  BasePage:38 - Entered password
+2026-02-19 17:50:18 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:50:18 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:50:18 INFO  BasePage:59 - Login performed with username: problem_user
+2026-02-19 17:50:18 INFO  BaseTest:122 - Data-driven login test completed for: problem_user
+2026-02-19 17:50:18 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:50:19 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:50:19 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:50:19 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:50:20 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:50:21 INFO  BasePage:50 - Entered text 'performance_glitch_user' in element: [[ChromeDriver: chrome on windows (c7d96df619167908e27e30fb19f85aa5)] -> id: user-name]
+2026-02-19 17:50:21 INFO  BasePage:33 - Entered username: performance_glitch_user
+2026-02-19 17:50:21 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (c7d96df619167908e27e30fb19f85aa5)] -> id: password]
+2026-02-19 17:50:21 INFO  BasePage:38 - Entered password
+2026-02-19 17:50:36 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:50:36 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:50:36 INFO  BasePage:59 - Login performed with username: performance_glitch_user
+2026-02-19 17:50:36 INFO  BaseTest:122 - Data-driven login test completed for: performance_glitch_user
+2026-02-19 17:50:36 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:50:36 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:53:42 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:53:42 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:53:44 INFO  ConfigReader:27 - Configuration properties loaded successfully
+2026-02-19 17:53:44 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:53:45 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (3f4be3b4ee338b50281180ffbc176155)] -> id: user-name]
+2026-02-19 17:53:45 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:53:45 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (3f4be3b4ee338b50281180ffbc176155)] -> id: password]
+2026-02-19 17:53:45 INFO  BasePage:38 - Entered password
+2026-02-19 17:53:56 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:53:56 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:53:56 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:53:56 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-backpack
+2026-02-19 17:53:56 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:53:56 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (3f4be3b4ee338b50281180ffbc176155)] -> class name: shopping_cart_link]
+2026-02-19 17:53:56 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:53:56 INFO  BasePage:69 - Number of items in cart: 1
+2026-02-19 17:53:56 INFO  BaseTest:56 - Add single product test passed
+2026-02-19 17:53:57 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:53:57 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:53:57 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:53:57 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:53:59 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:53:59 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (6f455aac07bcb25ad3f4e9e0f4a80373)] -> id: user-name]
+2026-02-19 17:53:59 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:53:59 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (6f455aac07bcb25ad3f4e9e0f4a80373)] -> id: password]
+2026-02-19 17:53:59 INFO  BasePage:38 - Entered password
+2026-02-19 17:54:10 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:54:10 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:54:10 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:54:10 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-backpack
+2026-02-19 17:54:10 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:54:10 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-bike-light
+2026-02-19 17:54:10 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:54:10 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-bolt-t-shirt
+2026-02-19 17:54:11 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:54:11 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (6f455aac07bcb25ad3f4e9e0f4a80373)] -> class name: shopping_cart_link]
+2026-02-19 17:54:11 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:54:11 INFO  BasePage:69 - Number of items in cart: 3
+2026-02-19 17:54:11 INFO  BaseTest:78 - Add multiple products test passed
+2026-02-19 17:54:11 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:54:11 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:54:11 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:54:11 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:54:12 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:54:13 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (6aa1eb0b6e28fbaccd8393cfcab99730)] -> id: user-name]
+2026-02-19 17:54:13 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:54:13 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (6aa1eb0b6e28fbaccd8393cfcab99730)] -> id: password]
+2026-02-19 17:54:13 INFO  BasePage:38 - Entered password
+2026-02-19 17:54:24 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:54:24 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:54:24 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:54:24 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-backpack
+2026-02-19 17:54:24 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:54:24 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-bike-light
+2026-02-19 17:54:24 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:54:24 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (6aa1eb0b6e28fbaccd8393cfcab99730)] -> class name: shopping_cart_link]
+2026-02-19 17:54:24 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:54:24 INFO  BasePage:69 - Number of items in cart: 2
+2026-02-19 17:54:25 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (6aa1eb0b6e28fbaccd8393cfcab99730)] -> css selector: .cart_button]
+2026-02-19 17:54:25 INFO  BasePage:108 - Removed item at index: 0
+2026-02-19 17:54:25 INFO  BasePage:69 - Number of items in cart: 1
+2026-02-19 17:54:25 INFO  BaseTest:100 - Remove product test passed
+2026-02-19 17:54:25 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:54:25 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:54:25 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:54:25 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:54:27 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:54:27 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (b5880c601dd56ad5e6270bda2a7da2d3)] -> id: user-name]
+2026-02-19 17:54:27 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:54:27 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (b5880c601dd56ad5e6270bda2a7da2d3)] -> id: password]
+2026-02-19 17:54:27 INFO  BasePage:38 - Entered password
+2026-02-19 17:54:37 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:54:37 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:54:37 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:54:37 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-backpack
+2026-02-19 17:54:38 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:54:38 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (b5880c601dd56ad5e6270bda2a7da2d3)] -> class name: shopping_cart_link]
+2026-02-19 17:54:38 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:54:48 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: continue-shopping'
+2026-02-19 17:54:48 INFO  BasePage:117 - Clicked continue shopping
+2026-02-19 17:54:48 INFO  BaseTest:122 - Cart persistence test passed
+2026-02-19 17:54:48 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:54:49 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:54:49 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:54:49 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:54:50 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:54:51 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (0744b50de2d8c32b8a378b95984860b3)] -> id: user-name]
+2026-02-19 17:54:51 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:54:51 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (0744b50de2d8c32b8a378b95984860b3)] -> id: password]
+2026-02-19 17:54:51 INFO  BasePage:38 - Entered password
+2026-02-19 17:55:01 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:55:01 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:55:01 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:55:01 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (0744b50de2d8c32b8a378b95984860b3)] -> class name: shopping_cart_link]
+2026-02-19 17:55:01 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:55:21 INFO  BasePage:69 - Number of items in cart: 0
+2026-02-19 17:55:21 INFO  BaseTest:136 - Empty cart test passed
+2026-02-19 17:55:21 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:55:22 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:56:47 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:56:47 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:56:49 INFO  ConfigReader:27 - Configuration properties loaded successfully
+2026-02-19 17:56:50 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:56:50 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (f25dab7525f6fc2e6e54cca8799786ba)] -> id: user-name]
+2026-02-19 17:56:50 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:56:50 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (f25dab7525f6fc2e6e54cca8799786ba)] -> id: password]
+2026-02-19 17:56:50 INFO  BasePage:38 - Entered password
+2026-02-19 17:57:01 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:57:01 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:57:01 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:57:01 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-backpack
+2026-02-19 17:57:01 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:57:01 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-bike-light
+2026-02-19 17:57:01 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:57:02 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (f25dab7525f6fc2e6e54cca8799786ba)] -> class name: shopping_cart_link]
+2026-02-19 17:57:02 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:57:02 INFO  BasePage:69 - Number of items in cart: 2
+2026-02-19 17:57:12 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: checkout'
+2026-02-19 17:57:12 INFO  BasePage:127 - Proceeded to checkout
+2026-02-19 17:57:12 INFO  BasePage:50 - Entered text 'John' in element: [[ChromeDriver: chrome on windows (f25dab7525f6fc2e6e54cca8799786ba)] -> id: first-name]
+2026-02-19 17:57:12 INFO  BasePage:69 - Entered first name: John
+2026-02-19 17:57:12 INFO  BasePage:50 - Entered text 'Doe' in element: [[ChromeDriver: chrome on windows (f25dab7525f6fc2e6e54cca8799786ba)] -> id: last-name]
+2026-02-19 17:57:12 INFO  BasePage:78 - Entered last name: Doe
+2026-02-19 17:57:12 INFO  BasePage:50 - Entered text '12345' in element: [[ChromeDriver: chrome on windows (f25dab7525f6fc2e6e54cca8799786ba)] -> id: postal-code]
+2026-02-19 17:57:12 INFO  BasePage:87 - Entered postal code: 12345
+2026-02-19 17:57:12 INFO  BasePage:100 - Filled checkout information
+2026-02-19 17:57:23 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: continue'
+2026-02-19 17:57:23 INFO  BasePage:108 - Clicked continue button
+2026-02-19 17:57:23 INFO  BasePage:141 - Subtotal: Item total: $39.98
+2026-02-19 17:57:23 INFO  BasePage:151 - Tax: Tax: $3.20
+2026-02-19 17:57:23 INFO  BasePage:161 - Total: Total: $43.18
+2026-02-19 17:57:33 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: finish'
+2026-02-19 17:57:33 INFO  BasePage:170 - Clicked finish button
+2026-02-19 17:57:33 INFO  BasePage:179 - Order complete header: Thank you for your order!
+2026-02-19 17:57:33 INFO  BaseTest:76 - Complete checkout test passed
+2026-02-19 17:57:33 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:57:34 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:57:34 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:57:34 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:57:36 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:57:37 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (1598915a460b05bd64a0d20debaaeb98)] -> id: user-name]
+2026-02-19 17:57:37 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:57:37 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (1598915a460b05bd64a0d20debaaeb98)] -> id: password]
+2026-02-19 17:57:37 INFO  BasePage:38 - Entered password
+2026-02-19 17:57:47 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:57:47 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:57:47 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:57:47 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-backpack
+2026-02-19 17:57:48 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:57:48 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (1598915a460b05bd64a0d20debaaeb98)] -> class name: shopping_cart_link]
+2026-02-19 17:57:48 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:57:58 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: checkout'
+2026-02-19 17:57:58 INFO  BasePage:127 - Proceeded to checkout
+2026-02-19 17:57:58 INFO  BasePage:50 - Entered text 'Doe' in element: [[ChromeDriver: chrome on windows (1598915a460b05bd64a0d20debaaeb98)] -> id: last-name]
+2026-02-19 17:57:58 INFO  BasePage:78 - Entered last name: Doe
+2026-02-19 17:57:59 INFO  BasePage:50 - Entered text '12345' in element: [[ChromeDriver: chrome on windows (1598915a460b05bd64a0d20debaaeb98)] -> id: postal-code]
+2026-02-19 17:57:59 INFO  BasePage:87 - Entered postal code: 12345
+2026-02-19 17:57:59 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (1598915a460b05bd64a0d20debaaeb98)] -> id: continue]
+2026-02-19 17:57:59 INFO  BasePage:108 - Clicked continue button
+2026-02-19 17:57:59 INFO  BaseTest:99 - Missing first name test passed
+2026-02-19 17:57:59 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:57:59 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:57:59 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:57:59 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:58:01 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:58:01 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (a727c5ade9d8f1b9d49096bf7b4cae10)] -> id: user-name]
+2026-02-19 17:58:01 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:58:01 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (a727c5ade9d8f1b9d49096bf7b4cae10)] -> id: password]
+2026-02-19 17:58:01 INFO  BasePage:38 - Entered password
+2026-02-19 17:58:11 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:58:11 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:58:11 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:58:11 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-backpack
+2026-02-19 17:58:12 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:58:12 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (a727c5ade9d8f1b9d49096bf7b4cae10)] -> class name: shopping_cart_link]
+2026-02-19 17:58:12 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:58:22 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: checkout'
+2026-02-19 17:58:22 INFO  BasePage:127 - Proceeded to checkout
+2026-02-19 17:58:22 INFO  BasePage:50 - Entered text 'John' in element: [[ChromeDriver: chrome on windows (a727c5ade9d8f1b9d49096bf7b4cae10)] -> id: first-name]
+2026-02-19 17:58:22 INFO  BasePage:69 - Entered first name: John
+2026-02-19 17:58:22 INFO  BasePage:50 - Entered text '12345' in element: [[ChromeDriver: chrome on windows (a727c5ade9d8f1b9d49096bf7b4cae10)] -> id: postal-code]
+2026-02-19 17:58:22 INFO  BasePage:87 - Entered postal code: 12345
+2026-02-19 17:58:23 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (a727c5ade9d8f1b9d49096bf7b4cae10)] -> id: continue]
+2026-02-19 17:58:23 INFO  BasePage:108 - Clicked continue button
+2026-02-19 17:58:23 INFO  BaseTest:122 - Missing last name test passed
+2026-02-19 17:58:23 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:58:23 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
+2026-02-19 17:58:23 INFO  BaseTest:41 - ===== Starting Test Execution =====
+2026-02-19 17:58:23 INFO  BaseTest:48 - Initializing browser: chrome
+2026-02-19 17:58:24 INFO  BaseTest:57 - Navigated to: https://www.saucedemo.com/
+2026-02-19 17:58:25 INFO  BasePage:50 - Entered text 'standard_user' in element: [[ChromeDriver: chrome on windows (1a900dbe7e363ce12f2794c6e4a844d6)] -> id: user-name]
+2026-02-19 17:58:25 INFO  BasePage:33 - Entered username: standard_user
+2026-02-19 17:58:25 INFO  BasePage:50 - Entered text 'secret_sauce' in element: [[ChromeDriver: chrome on windows (1a900dbe7e363ce12f2794c6e4a844d6)] -> id: password]
+2026-02-19 17:58:25 INFO  BasePage:38 - Entered password
+2026-02-19 17:58:35 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+2026-02-19 17:58:35 INFO  BasePage:46 - Clicked login button
+2026-02-19 17:58:35 INFO  BasePage:59 - Login performed with username: standard_user
+2026-02-19 17:58:35 INFO  BasePage:70 - Adding product: add-to-cart-sauce-labs-backpack
+2026-02-19 17:58:36 INFO  BasePage:80 - Product added successfully
+2026-02-19 17:58:36 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (1a900dbe7e363ce12f2794c6e4a844d6)] -> class name: shopping_cart_link]
+2026-02-19 17:58:36 INFO  BasePage:100 - Clicked shopping cart
+2026-02-19 17:58:46 INFO  BasePage:43 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: checkout'
+2026-02-19 17:58:46 INFO  BasePage:127 - Proceeded to checkout
+2026-02-19 17:58:46 INFO  BasePage:50 - Entered text 'John' in element: [[ChromeDriver: chrome on windows (1a900dbe7e363ce12f2794c6e4a844d6)] -> id: first-name]
+2026-02-19 17:58:46 INFO  BasePage:69 - Entered first name: John
+2026-02-19 17:58:46 INFO  BasePage:50 - Entered text 'Doe' in element: [[ChromeDriver: chrome on windows (1a900dbe7e363ce12f2794c6e4a844d6)] -> id: last-name]
+2026-02-19 17:58:46 INFO  BasePage:78 - Entered last name: Doe
+2026-02-19 17:58:46 INFO  BasePage:43 - Clicked on element: [[ChromeDriver: chrome on windows (1a900dbe7e363ce12f2794c6e4a844d6)] -> id: continue]
+2026-02-19 17:58:46 INFO  BasePage:108 - Clicked continue button
+2026-02-19 17:58:46 INFO  BaseTest:145 - Missing postal code test passed
+2026-02-19 17:58:46 INFO  BaseTest:104 - Closing browser
+2026-02-19 17:58:47 INFO  BaseTest:107 - ===== Test Execution Completed =====
+
