@@ -1,0 +1,81 @@
+pipeline{
+	agent any
+	
+	tools {
+		maven 'Maven'
+		jdk 'JDK21'
+	}
+	
+	parameters {
+		choice(name: 'BROWSER', choices: ['chrome','firefox','edge'] , description: 'Select browser to run tests')
+		booleanParam(name: 'HEADLESS', defaultValue: true, description: 'Run tests in headless mode?')
+	}
+	
+	environment {
+		MAVEN_OPTS '-Xmx1024m'
+	}
+	
+	stages {
+		stage('Checkout') {
+			steps {
+				echo 'Checking out code from repository...'
+				checkout scm
+			}
+		}
+		
+		stage('Build') {
+			steps {
+				echo 'Building the project...'
+				bat 'mvn clean compile -DskipTests'
+			}
+		}
+		
+		stage('Run Tests') {
+			steps{
+				echo "Running Selenium tests with browser: ${params.BROWSER}"
+                script {
+                    if (params.HEADLESS) {
+                        bat "mvn test -Dbrowser=${params.BROWSER} -Dheadless=true"
+                    } else {
+                        bat "mvn test -Dbrowser=${params.BROWSER} -Dheadless=false"
+                    }
+                }
+			}
+		}
+		
+		stage('Generate Reports') {
+			steps {
+                echo 'Publishing test reports...'
+                
+                // Publish Extent Report
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'reports',
+                    reportFiles: '*.html',
+                    reportName: 'Extent Report',
+                    reportTitles: 'Test Execution Report'
+                ])
+            }
+		}
+	}
+	
+	post {
+		always {
+			echo 'Archiving artifacts...'
+           	
+           	// Archive reports, screenshots, logs
+           	archiveArtifacts artifacts: 'reports/**/*.html, screenshots/**/*.png, logs/**/*.log',
+           		allowEmptyArchive: true
+		}
+		
+		success {
+			echo 'Build completed successfully!'
+		}
+		
+		failure {
+			echo 'Build failed! Check the console output for details.'
+		}
+	}
+}
