@@ -26,20 +26,24 @@ pipeline{
 		stage('Build') {
 			steps {
 				echo 'Building the project...'
-				bat 'mvn clean compile -DskipTests'
+				dir('ecommerce-automation') {
+					bat 'mvn clean compile -DskipTests'
+				}
 			}
 		}
 		
 		stage('Run Tests') {
 			steps{
 				echo "Running Selenium tests with browser: ${params.BROWSER}"
-                script {
-                    if (params.HEADLESS) {
-                        bat "mvn test -Dbrowser=${params.BROWSER} -Dheadless=true"
-                    } else {
-                        bat "mvn test -Dbrowser=${params.BROWSER} -Dheadless=false"
-                    }
-                }
+				dir('ecommerce-automation') {
+					script {
+                    	if (params.HEADLESS) {
+                        	bat "mvn test -Dbrowser=${params.BROWSER} -Dheadless=true"
+                    	} else {
+                        	bat "mvn test -Dbrowser=${params.BROWSER} -Dheadless=false"
+                    	}
+                	}
+				}
 			}
 		}
 		
@@ -52,7 +56,7 @@ pipeline{
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
-                    reportDir: 'reports',
+                    reportDir: 'ecommerce-automation/reports',
                     reportFiles: '*.html',
                     reportName: 'Extent Report',
                     reportTitles: 'Test Execution Report'
@@ -66,7 +70,7 @@ pipeline{
 			echo 'Archiving artifacts...'
            	
            	// Archive reports, screenshots, logs
-           	archiveArtifacts artifacts: 'reports/**/*.html, screenshots/**/*.png, logs/**/*.log',
+           	archiveArtifacts artifacts: 'ecommerce-automation/reports/**/*.html, ecommerce-automation/screenshots/**/*.png, ecommerce-automation/logs/**/*.log',
            		allowEmptyArchive: true
 		}
 		
