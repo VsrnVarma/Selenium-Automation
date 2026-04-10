@@ -1,5 +1,10 @@
 package pages;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -71,7 +76,18 @@ public class LoginPage extends BasePage {
     }
     
     public boolean isLoginLogoDisplayed() {
-        return isElementDisplayed(loginLogo);
+        boolean logo = isElementDisplayed(loginLogo);
+        
+        File elementScreenshot = loginLogo.getScreenshotAs(OutputType.FILE); 
+        File dest = new File("screenshots/login_logo.png");
+        try {
+			FileUtils.copyFile(elementScreenshot, dest);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+        System.out.println("Element Screenshot saved: "+dest.getAbsolutePath());
+        
+        return logo;
     }
     
     public String getLoginPageTitle() {

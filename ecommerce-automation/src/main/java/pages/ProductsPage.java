@@ -13,7 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import base.BasePage;
 
 public class ProductsPage extends BasePage {
-	//private final WebDriver pageDriver;
     
     @FindBy(className = "title")
     private WebElement pageTitle;

@@ -154,16 +154,16 @@ public class LoginTest extends BaseTest {
 //        };
 //    }
     
-    @Test(priority = 6, description = "Verify login with invalid credentials")
-    public void testInvalidLogin_ShouldCaptureScreenshot() {
-    	test = extent.createTest("Valid Login Test", "Verify user can login with valid credentials");
-        test.log(Status.INFO, "Starting valid login test");
-        
-        ProductsPage productsPage = loginPage.login("invalid_user", "secret_sauce");
-        
-        // This assertion will fail intentionally
-        Assert.assertTrue(driver.getCurrentUrl().contains("inventory"), "Usershould not be redirected to inventory page");
-    }
+//    @Test(priority = 6, description = "Verify login with invalid credentials")
+//    public void testInvalidLogin_ShouldCaptureScreenshot() {
+//    	test = extent.createTest("Valid Login Test", "Verify user can login with valid credentials");
+//        test.log(Status.INFO, "Starting valid login test");
+//        
+//        ProductsPage productsPage = loginPage.login("invalid_user", "secret_sauce");
+//        
+//        // This assertion will fail intentionally
+//        Assert.assertTrue(driver.getCurrentUrl().contains("inventory"), "Usershould not be redirected to inventory page");
+//    }
     
     @AfterMethod
     public void captureScreenshotOnFailure(ITestResult result) {
